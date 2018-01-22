@@ -23,7 +23,7 @@ ws.once('auth', () => {
   const o = new Order({
     cid: Date.now(),
     symbol: 'tBTCUSD',
-    price: 589.10,
+    price: 11589.10,
     amount: -0.02,
     type: Order.type.EXCHANGE_LIMIT
   }, ws)
